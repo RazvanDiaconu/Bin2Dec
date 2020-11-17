@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title> Calculator Binar</title>
+    <script src="script.js"></script>
+  </head>
+
+
+
+  <body>
+  <h3 id="title" >  Insert a number below:</h3>
+
+  </div>
+    <div class="card">
+      <form id="myForm">
+      <input type="number" id="input"placeholder="Enter binary number:" required>
+      <input type="button" value="Convert" onclick="Convert()"><br>
+<label for="bin">
+<input id="bin" type="radio" name="bin-dec" onchange="ChangeText()" checked  >
+Bin-to-Dec
+</label>
+<label for="dec">
+<input id="dec" type="radio" name="bin-dec" onchange="ChangeText()">
+Dec-to-Bin
+</label><br>
+      <input type="text" id="output" placeholder="Decimal number" readonly  >
+      <input type="reset">
+        </form>
+
+    </div>
+  </body>
+</html>
